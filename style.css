@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&family=Quicksand:wght@500&family=Raleway&family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 0 20px 0;
+    background: rgb(206, 206, 206);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+#title{
+    margin-right: 40%;
+    margin-left: 15%;
+}
+#default {
+    cursor: pointer;
+}
+#number > p {
+    position: relative;
+    text-align: center;
+    margin: 340px 0 0 0;
+    background: rgb(206, 206, 206);
+    left: 45%;
+    width: 100px;
+    height: 60px;
+    padding: 10px 0 0 0 ;
+    border: solid #2f2f2f 2px;
+    border-radius: 10px;
+    color: #2f2f2f;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    position: relative;
+    text-align: center;
+    margin: 20px 0 0 0;
+    background: rgb(206, 206, 206);
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    border: solid #2f2f2f 2px;
+    border-radius: 10px;
+    color: #2f2f2f;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer > a >i {
+    text-decoration: none;
+    color: #9c9c9c;
+    font-size: 25px;
+    margin: 0 15px 10px 0;
+    transition: all 0.5s ease;
+}
+footer > a >i:hover {
+    color: rgb(123, 136, 163);
+        
+}
